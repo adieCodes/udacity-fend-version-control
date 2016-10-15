@@ -1,0 +1,46 @@
+# How did viewing a diff between two versions of a file help you see the bug
+ that was introduced?
+
+It eliminated all content but the changes thus reducing the number of likely
+ candidates as the root cause. This dramatically decreases the time to find the
+ bug.
+
+# How could having easy access to the entire history of a file make you a more
+ efficient programmer in the long term?
+
+It allows you to easily roll back changes and bypass bugs until you fix them,
+ allowing you to be more confident with your code.
+
+# What do you think are the pros and cons of manually choosing to create a commit, like you
+ do in Git, vs having versions automatically saved, like Google Docs does.
+
+The pros of manual commits are that when done well it is more logical and can provide a
+ narrative, making it easier to understand the history and fix bugs. The negative is that
+ you're relying on a human remembering to commit and adding possible confusion when
+ different approaches are used.
+
+# Why do you think some version control system, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git allows saving of multiple files in one commit as it is tailored towards development and understands the importance of related files. This isn't the case for the kind of documents stored in Google Docs.
+
+# How can you use the commands git log and git diff to view the history of files?
+
+**git log** shows the most recent commits, along with their commit ID's, Author, Date and
+ message. This will allow you to locate previous versions of the codebase more easily,
+ making it easier to be aware of changes other devs have made or identify where bugs may
+ have been introduced.
+
+**git diff** allows you to compare commits (using the commit ID) and highlights where
+ changes were made (both additions and removals). This reduces the time to review new
+ features or identify where bugs were introduced.
+
+# How might using version control make you more confident to make changes that could break
+ something?
+
+Knowing that any changes you implement can be reverted quickly and easily removes any
+ concerns about the negative impact your code could have (as long as you are committing all changes appropriately).
+
+# Now that you have your workspace set up, what do you want to try using Git for?
+
+I've used Git before but always alone, so I'm looking forward to using it for collaboration
+ and eventually contributing to open source projects.
