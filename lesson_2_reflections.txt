@@ -1,0 +1,4 @@
+# What happens when you initialise a repository? Why do you need to do it?
+
+Initialising a repository adds the hidden directory **.git**, this keeps all of the meta
+ data about historic commits. You need to do this as this is what makes Git work, without it there's no record of the changes made.
