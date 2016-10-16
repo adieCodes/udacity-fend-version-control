@@ -2,3 +2,9 @@
 
 Initialising a repository adds the hidden directory **.git**, this keeps all of the meta
  data about historic commits. You need to do this as this is what makes Git work, without it there's no record of the changes made.
+
+# How is the staging area different from the working directory and repository? What value
+ do you think it offers?
+
+The staging area allows you to select the files you want to add to a commit, providing far
+ greater flexibility and control.
