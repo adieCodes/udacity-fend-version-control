@@ -8,3 +8,8 @@ Initialising a repository adds the hidden directory **.git**, this keeps all of 
 
 The staging area allows you to select the files you want to add to a commit, providing far
  greater flexibility and control.
+
+# How can you use the staging area to make sure you have one commit per logical change?
+
+Only stage the files that are involved with the commit, you can add other files with other
+ commits after.
