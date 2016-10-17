@@ -18,3 +18,7 @@ Only stage the files that are involved with the commit, you can add other files 
  organised? How would branches help?
 
 Branches would be most helpful when adding new features or fixing bugs, as this gives you the ability to make changes without impacting your known working code. You can then merge the two codebases when the new feature is ready and tested.
+
+# How do the diagrams help you visualise the branch structure?
+
+They give you a clear visual demonstration of which branches have access to which commits.
