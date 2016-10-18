@@ -19,3 +19,7 @@ As you don't want changes happening to your code without you at least requesting
  
 **Branch** - A branch is a seperate version of your existing code. This is used for creating new features/
  fixing bugs without impacting the main ("master") branch.
+ 
+# What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It allows you to compare the work you've done to the latest known project state even when offline.
