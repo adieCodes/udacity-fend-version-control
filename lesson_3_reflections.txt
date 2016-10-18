@@ -23,3 +23,10 @@ As you don't want changes happening to your code without you at least requesting
 # What is the benefit of having a copy of the last known state of the remote stored locally?
 
 It allows you to compare the work you've done to the latest known project state even when offline.
+
+# How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without using Git/GitHub I'd be reliant on a solution like Dropbox. This would be more flexible but we'd
+ need to reply on communicating through Slack or similar. It would be easier to use a tool I have more
+ experience with but the power of commits (particularly commit messages and their manual nature) seems
+ extremely useful.
