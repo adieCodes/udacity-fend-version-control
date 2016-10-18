@@ -2,3 +2,8 @@
 
 When you're working with other people or on other machines, this allows you to work on the same code base.
  It's also useful as a back up, in case anything were to happen to your machine.
+
+# Why might you want to always pull changes manually rather than having Git automatically stay up-to-date
+ with your remote repository?
+ 
+ As you don't want changes happening to your code without you at least requesting it, if not authoring it.
