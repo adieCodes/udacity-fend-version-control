@@ -22,3 +22,14 @@ Branches would be most helpful when adding new features or fixing bugs, as this 
 # How do the diagrams help you visualise the branch structure?
 
 They give you a clear visual demonstration of which branches have access to which commits.
+
+# What is the result of merging two branches together? Why do we represent it in the
+ diagram the way we do?
+
+The result of merging two branches is that the two codebases are joined with all the
+ changes added. This is done by comparing both branches to their nearest shared parent,
+ adding any new lines and removing any deleted lines, it gets a little more complicated but
+ that's the basic theory.
+
+We represent it in the diagram as we do because it demonstrates the history of the project
+ and the best way to view changes.
