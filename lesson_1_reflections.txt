@@ -19,9 +19,12 @@ The pros of manual commits are that when done well it is more logical and can pr
  you're relying on a human remembering to commit and adding possible confusion when
  different approaches are used.
 
-# Why do you think some version control system, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+# Why do you think some version control system, like Git, allow saving multiple files in one
+ commit, while others, like Google Docs, treat each file separately?
 
-Git allows saving of multiple files in one commit as it is tailored towards development and understands the importance of related files. This isn't the case for the kind of documents stored in Google Docs.
+Git allows saving of multiple files in one commit as it is tailored towards development and
+ understands the importance of related files. This isn't the case for the kind of documents
+ stored in Google Docs.
 
 # How can you use the commands git log and git diff to view the history of files?
 
@@ -38,7 +41,8 @@ Git allows saving of multiple files in one commit as it is tailored towards deve
  something?
 
 Knowing that any changes you implement can be reverted quickly and easily removes any
- concerns about the negative impact your code could have (as long as you are committing all changes appropriately).
+ concerns about the negative impact your code could have (as long as you are committing all
+ changes appropriately).
 
 # Now that you have your workspace set up, what do you want to try using Git for?
 
