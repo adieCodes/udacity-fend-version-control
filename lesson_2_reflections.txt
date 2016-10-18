@@ -33,3 +33,13 @@ The result of merging two branches is that the two codebases are joined with all
 
 We represent it in the diagram as we do because it demonstrates the history of the project
  and the best way to view changes.
+
+# What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+The advantage of Git's automatic merging is that it saves a lot of time checking basic
+ changes that are almost certainly not causing an issue. If you needed to check each
+ contributors additions/removals on a large open source project the project would stop.
+
+The disadvantage is that there can be unforeseen consequences of what seems like a
+ trivial addition/removal from the codebase. In this situation it should be relatively easy
+ to find the root cause with a `git diff` between the commit's.
