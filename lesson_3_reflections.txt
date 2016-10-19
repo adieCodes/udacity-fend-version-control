@@ -30,3 +30,10 @@ Without using Git/GitHub I'd be reliant on a solution like Dropbox. This would b
  need to reply on communicating through Slack or similar. It would be easier to use a tool I have more
  experience with but the power of commits (particularly commit messages and their manual nature) seems
  extremely useful.
+
+# When would you want to make changes in a separate branch rather than directly in master? What benefits
+ does each approach have?
+
+If it's a simple project making commits on the master branch would make things easier and seems sensible
+ enough. The additional power of branches, particularly pull requests, seem worth the extra effort on the
+ majority of projects.
